@@ -2,15 +2,178 @@
   <mj-head>
     <mj-title>Flower Pot</mj-title>
     <mj-attributes>
-      
+      <mj-text font-family="Montserrat" color="#031F2A"/>
+      <mj-class name="heading" font-family="Harmony, Times New Roman" font-size="40px"/>
+      <mj-image padding="0"/>
+      <mj-section padding="0" background-color="#fff"/>
+      <mj-button color="#031F2A" background-color="#fff" font-size="14px" align="center" padding="15px 20px" height="40px" border="2px solid #031F2A" border-radius="10px" text-transform="uppercase" letter-spacing="2px"/>
     </mj-attributes>
+
+    <mj-style>
+      
+    </mj-style>
   </mj-head>
 
-  <mj-body>
+  <mj-body background-color="#E6F0EF">
+  <!-- Logo -->
     <mj-section>
       <mj-column>
-        <mj-text>
-          <p>Honey Pot</p>
+        <mj-image src="https://i.ibb.co/McK24SQ/Flower-Pot-3.png" alt="Logo" width="150px" padding="30px"/>
+      </mj-column>
+    </mj-section>
+
+    <!-- Menu -->
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="heading" align="center" font-size="16px" letter-spacing="1px">
+          <p>Shop &nbsp;&nbsp;|&nbsp;&nbsp; Plant Care &nbsp;&nbsp;|&nbsp;&nbsp; Blog &nbsp;&nbsp;|&nbsp;&nbsp; About</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero -->
+    <mj-section padding-top="30px">
+      <mj-column>
+        <mj-image src="https://i.ibb.co/6HhwJKW/plant.png" alt="Flower" width="300px"/>
+      </mj-column>
+      <mj-column>
+        <mj-text mj-class="heading">
+          <p>Make your <span style="color: #3C6E65">summer days</span> feeling good with beautiful <span style="color: #3C6E65">plants.</span></p>
+        </mj-text>
+        <mj-button>
+          <mj-text>
+            Summer Sale
+          </mj-text>
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Gallery -->
+    <mj-section padding="30px 13px 0 13px">
+      <mj-column width="57%">
+        <mj-image src="https://i.ibb.co/yRv54n6/04.png" alt="Orange flower pot"/>
+        <mj-text align="center" font-family="Georgia" font-size="16px" font-weight="bold">
+          <p>#1</p>
+        </mj-text>
+        <mj-button padding-top="0">
+          <mj-text>
+            shop now
+          </mj-text>
+        </mj-button>
+      </mj-column>
+      <mj-column width="39.8%">
+        <mj-image src="https://i.ibb.co/G9vHJ6n/05-1.png" alt="Stone flower pot" padding-left="15px"/>
+        <mj-text align="center" font-family="Georgia" font-size="16px" font-weight="bold">
+          <p>#02</p>
+        </mj-text>
+        <mj-button padding-top="0">
+          <mj-text>
+            shop now
+          </mj-text>
+        </mj-button>
+        <mj-image src="https://i.ibb.co/D1Q0RZW/03.png" alt="" padding-left="15px" padding-top="30px"/>
+        <mj-text align="center" font-family="Georgia" font-size="16px" font-weight="bold">
+          <p>#03</p>
+        </mj-text>
+        <mj-button padding-top="0">
+          <mj-text>
+            shop now
+          </mj-text>
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Save 25% -->
+    <mj-section padding-top="30px">
+      <mj-column>
+        <mj-text align="center" font-family="Harmony" font-size="25px" font-weight="bold">
+          <p>Bring calm to your place with interior plants</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-image src="https://i.ibb.co/r7xHdHg/07.png" alt="Green flower"/>
+        <mj-text align="center" line-height="22px">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <p style="font-family: Harmaony; font-weight: bold; font-size: 23px; text-transform: uppercase; padding-top: 10px">save 25% off</p>
+        </mj-text>
+        <mj-button padding-top="0">
+          <mj-text>
+            shop now
+          </mj-text>
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Article -->
+    <mj-section padding-top="30px">
+      <mj-column>
+        <mj-image src="https://i.ibb.co/HVYB1yh/08.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="20px" padding-bottom="50px">
+      <mj-column>
+        <mj-text align="center">
+          <span style="font-family: Harmony; font-size: 20px; font-weight: bold; text-transform: capitalize">blog article</span>
+          <p style="line-height: 22px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </mj-text>
+        <mj-button>
+          <mj-text>
+            read more
+          </mj-text>
+        </mj-button>
+      </mj-column>
+      <mj-column>
+        <mj-text align="center">
+          <span style="font-family: Harmony; font-size: 20px; font-weight: bold; text-transform: capitalize">blog article</span>
+          <p style="line-height: 22px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </mj-text>
+         <mj-button>
+          <mj-text>
+            read more
+          </mj-text>
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Summer sale -->
+    <mj-section padding-top="30px" background-color="#031F2A">
+      <mj-column>
+        <mj-text padding-top="16px" font-family="Harmony, georgia" font-size="20px" letter-spacing="4px" color="#fff" align="center">
+          <p>#summersale</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#031F2A" padding-bottom="20px">
+      <mj-column padding-top="20px">
+        <mj-image src="https://i.ibb.co/z56D8Wy/ship.png" alt="Box icon"  width="60px"/>
+        <mj-text color="#fff" align="center" text-transform="capitalize">
+          <p>free shipping</p>
+        </mj-text>
+      </mj-column>
+      <mj-column padding-top="20px">
+        <mj-image src="https://i.ibb.co/yNhB54D/shop-online2-icon.png" alt="Shopping cart icon"  width="60px"/>
+        <mj-text color="#fff" align="center" text-transform="capitalize">
+          <p>shop on line</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#E6F0EF" padding-bottom="80px">
+      <mj-column width="400px">
+        <mj-image src="https://i.ibb.co/McK24SQ/Flower-Pot-3.png" alt="Logo" width="150px" padding-top="30px" padding-bottom="16px"/>
+        <mj-text align="center">
+          <img src="https://i.ibb.co/tztRCDB/facebook2x.png" alt="Facebook" width="30px" style="padding-right: 10px">
+          <img src="https://i.ibb.co/JjSQzZt/instagram2x.png" alt="Instagram" width="30px" style="padding-right: 10px">
+          <img src="https://i.ibb.co/GthbShk/linkedin2x.png" alt="Linkedin" width="30px" style="padding-right: 10px">
+        </mj-text>
+        <mj-text align="center" line-height="22px" color="#999999">
+          <p>Want to change how you receive these emails? You can update your preferences or unsubscribe from this list.© 2023 Company. All Rights Reserved.</p>
         </mj-text>
       </mj-column>
     </mj-section>
