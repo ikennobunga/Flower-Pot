@@ -10,7 +10,11 @@
     </mj-attributes>
 
     <mj-style>
-      
+      @media (max-width: 480px) {
+        .heading-plants {
+          text-align: center !important;
+        }
+      }
     </mj-style>
   </mj-head>
 
@@ -38,7 +42,7 @@
       </mj-column>
       <mj-column>
         <mj-text mj-class="heading">
-          <p>Make your <span style="color: #3C6E65">summer days</span> feeling good with beautiful <span style="color: #3C6E65">plants.</span></p>
+          <p class="heading-plants">Make your <span style="color: #3C6E65">summer days</span> feeling good with beautiful <span style="color: #3C6E65">plants.</span></p>
         </mj-text>
         <mj-button>
           <mj-text>
