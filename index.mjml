@@ -1,6 +1,10 @@
 <mjml>
   <mj-head>
-    <mj-preview>Only The Best Of Flowers😍</mj-preview>
+    <mj-raw>
+      <meta name="color-scheme" content="light"></meta>
+      <meta name="surported-color-scheme" content="light"></meta>
+    </mj-raw>
+    <mj-preview>Only The Best Of Flowers😍b</mj-preview>
     <mj-title>Flower Pot</mj-title>
     <mj-attributes>
       <mj-text font-family="Montserrat" color="#031F2A"/>
