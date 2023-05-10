@@ -143,13 +143,29 @@
         background-color: #212529 !important;
       }
 
+      [data-ogsc] .dark-mode>table {
+        background-color: #212529 !important;
+      }
+
       .dark-logo {
         display: none !important;
+      }
+
+      .dark-mode-text {
+        color: #E2ECEB;
+      }
+
+      [data-ogsc] .dark-mode-text {
+        color: #E2ECEB;
       }
     }
 
     @media (prefers-color-scheme: light) {
-      .light-logo>table {
+      .light-logo {
+        display: none !important;
+      }
+
+      [data-ogsc] .light-logo {
         display: none !important;
       }
     }
@@ -157,6 +173,7 @@
     @media (max-width: 480px) {
       .heading-plants {
         text-align: center !important;
+        line-height: 44px;
       }
     }
 
@@ -182,7 +199,7 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
                     <tr>
-                      <td align="center" class="dark-logo" style="font-size:0px;padding:30px;word-break:break-word;">
+                      <td align="center" class="dark-logo" style="font-size:0px;padding:0;padding-top:30px;padding-bottom:30px;word-break:break-word;">
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                           <tbody>
                             <tr>
@@ -195,7 +212,7 @@
                       </td>
                     </tr>
                     <tr>
-                      <td align="center" class="light-logo" style="font-size:0px;padding:30px;word-break:break-word;">
+                      <td align="center" class="light-logo" style="font-size:0px;padding:0;padding-top:30px;padding-bottom:30px;word-break:break-word;">
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                           <tbody>
                             <tr>
@@ -218,8 +235,8 @@
     </div>
     <!--[if mso | IE]></td></tr></table><![endif]-->
     <!-- Menu -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="dark-mode-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="dark-mode" style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
         <tbody>
           <tr>
@@ -231,7 +248,7 @@
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                         <div style="font-family:Harmony, Times New Roman;font-size:16px;letter-spacing:1px;line-height:1;text-align:center;color:#031F2A;">
-                          <p>Shop &nbsp;&nbsp;|&nbsp;&nbsp; Plant Care &nbsp;&nbsp;|&nbsp;&nbsp; Blog &nbsp;&nbsp;|&nbsp;&nbsp; About</p>
+                          <p class="dark-mode-text">Shop &nbsp;&nbsp;|&nbsp;&nbsp; Plant Care &nbsp;&nbsp;|&nbsp;&nbsp; Blog &nbsp;&nbsp;|&nbsp;&nbsp; About</p>
                         </div>
                       </td>
                     </tr>
@@ -246,8 +263,8 @@
     </div>
     <!--[if mso | IE]></td></tr></table><![endif]-->
     <!-- Hero -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="dark-mode-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="dark-mode" style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
         <tbody>
           <tr>
@@ -279,7 +296,7 @@
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                         <div style="font-family:Harmony, Times New Roman;font-size:40px;line-height:1;text-align:left;color:#031F2A;">
-                          <p class="heading-plants">Make your <span style="color: #3C6E65">summer days</span> feeling good with beautiful <span style="color: #3C6E65">plants.</span></p>
+                          <p class="heading-plants dark-mode-text">Make your <span style="color: #3C6E65">summer days</span> feeling good with beautiful <span style="color: #3C6E65">plants.</span></p>
                         </div>
                       </td>
                     </tr>
@@ -309,8 +326,8 @@
     </div>
     <!--[if mso | IE]></td></tr></table><![endif]-->
     <!-- Gallery -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="dark-mode-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="dark-mode" style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
         <tbody>
           <tr>
@@ -335,7 +352,7 @@
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                         <div style="font-family:Georgia;font-size:16px;font-weight:bold;line-height:1;text-align:center;color:#031F2A;">
-                          <p>#1</p>
+                          <p class="dark-mode-text">#1</p>
                         </div>
                       </td>
                     </tr>
@@ -377,7 +394,7 @@
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                         <div style="font-family:Georgia;font-size:16px;font-weight:bold;line-height:1;text-align:center;color:#031F2A;">
-                          <p>#02</p>
+                          <p class="dark-mode-text">#02</p>
                         </div>
                       </td>
                     </tr>
@@ -412,7 +429,7 @@
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                         <div style="font-family:Georgia;font-size:16px;font-weight:bold;line-height:1;text-align:center;color:#031F2A;">
-                          <p>#03</p>
+                          <p class="dark-mode-text">#03</p>
                         </div>
                       </td>
                     </tr>
@@ -442,8 +459,8 @@
     </div>
     <!--[if mso | IE]></td></tr></table><![endif]-->
     <!-- Save 25% -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="dark-mode-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="dark-mode" style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
         <tbody>
           <tr>
@@ -455,7 +472,7 @@
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                         <div style="font-family:Harmony;font-size:25px;font-weight:bold;line-height:1;text-align:center;color:#031F2A;">
-                          <p>Bring calm to your place with interior plants</p>
+                          <p class="dark-mode-text">Bring calm to your place with interior plants</p>
                         </div>
                       </td>
                     </tr>
@@ -468,8 +485,8 @@
         </tbody>
       </table>
     </div>
-    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="dark-mode-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="dark-mode" style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
         <tbody>
           <tr>
@@ -494,8 +511,8 @@
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                         <div style="font-family:Montserrat;font-size:13px;line-height:22px;text-align:center;color:#031F2A;">
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                          <p style="font-family: Harmaony; font-weight: bold; font-size: 23px; text-transform: uppercase; padding-top: 10px">save 25% off</p>
+                          <p class="dark-mode-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                          <p class="dark-mode-text" style="font-family: Harmaony; font-weight: bold; font-size: 23px; text-transform: uppercase; padding-top: 10px">save 25% off</p>
                         </div>
                       </td>
                     </tr>
@@ -525,8 +542,8 @@
     </div>
     <!--[if mso | IE]></td></tr></table><![endif]-->
     <!-- Article -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="dark-mode-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="dark-mode" style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
         <tbody>
           <tr>
@@ -557,8 +574,8 @@
         </tbody>
       </table>
     </div>
-    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="dark-mode-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="dark-mode" style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
         <tbody>
           <tr>
@@ -569,8 +586,8 @@
                   <tbody>
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Montserrat;font-size:13px;line-height:1;text-align:center;color:#031F2A;"><span style="font-family: Harmony; font-size: 20px; font-weight: bold; text-transform: capitalize">blog article</span>
-                          <p style="line-height: 22px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <div style="font-family:Montserrat;font-size:13px;line-height:1;text-align:center;color:#031F2A;"><span class="dark-mode-text" style="font-family: Harmony; font-size: 20px; font-weight: bold; text-transform: capitalize">blog article</span>
+                          <p class="dark-mode-text" style="line-height: 22px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                         </div>
                       </td>
                     </tr>
@@ -598,8 +615,8 @@
                   <tbody>
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Montserrat;font-size:13px;line-height:1;text-align:center;color:#031F2A;"><span style="font-family: Harmony; font-size: 20px; font-weight: bold; text-transform: capitalize">blog article</span>
-                          <p style="line-height: 22px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <div style="font-family:Montserrat;font-size:13px;line-height:1;text-align:center;color:#031F2A;"><span class="dark-mode-text" style="font-family: Harmony; font-size: 20px; font-weight: bold; text-transform: capitalize">blog article</span>
+                          <p class="dark-mode-text" style="line-height: 22px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                         </div>
                       </td>
                     </tr>
@@ -739,8 +756,8 @@
     </div>
     <!--[if mso | IE]></td></tr></table><![endif]-->
     <!-- Footer -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#E6F0EF" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="background:#E6F0EF;background-color:#E6F0EF;margin:0px auto;max-width:600px;">
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="dark-mode-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#E6F0EF" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="dark-mode" style="background:#E6F0EF;background-color:#E6F0EF;margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#E6F0EF;background-color:#E6F0EF;width:100%;">
         <tbody>
           <tr>
@@ -750,12 +767,25 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
                     <tr>
-                      <td align="center" style="font-size:0px;padding:0;padding-top:30px;padding-bottom:16px;word-break:break-word;">
+                      <td align="center" class="dark-logo" style="font-size:0px;padding:0;padding-top:30px;padding-bottom:16px;word-break:break-word;">
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                           <tbody>
                             <tr>
                               <td style="width:150px;">
                                 <img alt="Logo" height="auto" src="https://i.ibb.co/McK24SQ/Flower-Pot-3.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="150" />
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" class="light-logo" style="font-size:0px;padding:0;padding-top:30px;padding-bottom:16px;word-break:break-word;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                          <tbody>
+                            <tr>
+                              <td style="width:150px;">
+                                <img alt="Logo" height="auto" src="https://i.ibb.co/NmL7QcR/Flower-Pot-Light.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="150" />
                               </td>
                             </tr>
                           </tbody>
@@ -773,7 +803,7 @@
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                         <div style="font-family:Montserrat;font-size:13px;line-height:22px;text-align:center;color:#999999;">
-                          <p>Want to change how you receive these emails? You can update your preferences or unsubscribe from this list.© 2023 Company. All Rights Reserved.</p>
+                          <p class="dark-mode-text">Want to change how you receive these emails? You can update your preferences or unsubscribe from this list.© 2023 Company. All Rights Reserved.</p>
                         </div>
                       </td>
                     </tr>
