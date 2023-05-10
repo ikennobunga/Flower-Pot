@@ -1,20 +1,42 @@
 <mjml>
   <mj-head>
     <mj-raw>
-      <meta name="color-scheme" content="light"></meta>
-      <meta name="surported-color-scheme" content="light"></meta>
+      <meta name="color-scheme" content="light dark"></meta>
+      <meta name="surported-color-schemes" content="light dark"></meta>
     </mj-raw>
     <mj-preview>Only The Best Of Flowers😍b</mj-preview>
     <mj-title>Flower Pot</mj-title>
     <mj-attributes>
       <mj-text font-family="Montserrat" color="#031F2A"/>
       <mj-class name="heading" font-family="Harmony, Times New Roman" font-size="40px"/>
+      <!-- <mj-class name="dark-mode" color="#212529"/> -->
       <mj-image padding="0"/>
       <mj-section padding="0" background-color="#fff"/>
       <mj-button color="#031F2A" background-color="#fff" font-size="14px" align="center" padding="15px 20px" height="40px" border="2px solid #031F2A" border-radius="10px" text-transform="uppercase" letter-spacing="2px"/>
     </mj-attributes>
 
     <mj-style>
+      :root {
+        color-scheme: light dark;
+        supported-color-schemes: light dark;
+      }
+      
+      @media (prefers-color-scheme: dark) {
+        .dark-mode > table {
+          background-color: #212529 !important;
+        }
+        .dark-logo {
+          display: none !important;
+        }
+
+      }
+
+      @media (prefers-color-scheme: light) {
+        .light-logo > table{
+          display: none !important;
+        }
+      }
+      
       @media (max-width: 480px) {
         .heading-plants {
           text-align: center !important;
@@ -25,9 +47,10 @@
 
   <mj-body background-color="#E6F0EF">
   <!-- Logo -->
-    <mj-section>
+    <mj-section css-class="dark-mode">
       <mj-column>
-        <mj-image src="https://i.ibb.co/McK24SQ/Flower-Pot-3.png" alt="Logo" width="150px" padding="30px"/>
+        <mj-image css-class="dark-logo" src="https://i.ibb.co/McK24SQ/Flower-Pot-3.png" alt="Logo" width="150px" padding="30px"/>
+        <mj-image css-class="light-logo" src="https://i.ibb.co/NmL7QcR/Flower-Pot-Light.png" alt="Logo" width="150px" padding="30px"/>
       </mj-column>
     </mj-section>
 
