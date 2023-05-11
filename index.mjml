@@ -4,7 +4,7 @@
       <meta name="color-scheme" content="light dark"></meta>
       <meta name="surported-color-schemes" content="light dark"></meta>
     </mj-raw>
-    <mj-preview>Only The Best Of Flowers😍b</mj-preview>
+    <mj-preview>Only The Best Of Flowers😍</mj-preview>
     <mj-title>Flower Pot</mj-title>
     <mj-attributes>
       <mj-text font-family="Montserrat" color="#031F2A"/>
@@ -32,6 +32,10 @@
         .dark-logo {
           display: none !important;
         }
+        [data-ogsc] .dark-logo {
+          display: none !important;
+        }
+
         .dark-mode-text {
           color: #E2ECEB;
         }
