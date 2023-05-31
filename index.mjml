@@ -43,15 +43,6 @@
           color: #E2ECEB;
         }
       }
-
-      @media (prefers-color-scheme: light) {
-        .light-logo {
-          display: none !important;
-        }
-        [data-ogsc] .light-logo {
-          display: none !important;
-        }
-      }
       
       @media (max-width: 480px) {
         .heading-plants {
@@ -62,7 +53,7 @@
     </mj-style>
   </mj-head>
 
-  <mj-body background-color="#E6F0EF">
+  <mj-body background-color="#E6F0EF" width="640px">
   <!-- Logo -->
     <mj-section css-class="dark-mode">
       <mj-column>
@@ -143,7 +134,7 @@
 
     <mj-section css-class="dark-mode">
       <mj-column>
-        <mj-image src="https://i.ibb.co/r7xHdHg/07.png" alt="Green flower"/>
+        <mj-image src="https://i.ibb.co/r7xHdHg/07.png" alt="Green flower" height="220px"/>
         <mj-text align="center" line-height="22px">
           <p class="dark-mode-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
           <p class="dark-mode-text" style="font-family: Harmaony; font-weight: bold; font-size: 23px; text-transform: uppercase; padding-top: 10px">save 25% off</p>
@@ -159,7 +150,7 @@
     <!-- Article -->
     <mj-section css-class="dark-mode" padding-top="30px">
       <mj-column>
-        <mj-image src="https://i.ibb.co/HVYB1yh/08.png" alt="" />
+        <mj-image src="https://i.ibb.co/HVYB1yh/08.png" alt="glass flower pot" height="400px"/>
       </mj-column>
     </mj-section>
 
