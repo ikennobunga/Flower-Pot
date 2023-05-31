@@ -57,8 +57,8 @@
   <!-- Logo -->
     <mj-section css-class="dark-mode">
       <mj-column>
-        <mj-image css-class="dark-logo" src="https://i.ibb.co/McK24SQ/Flower-Pot-3.png" alt="Logo" width="150px" padding-top="30px" padding-bottom="30px"/>
-        <mj-image css-class="light-logo" src="https://i.ibb.co/NmL7QcR/Flower-Pot-Light.png" alt="Logo" width="150px" padding-top="30px" padding-bottom="30px"/>
+        <mj-image css-class="dark-logo" src="https://i.ibb.co/McK24SQ/Flower-Pot-3.png" alt="Logo" width="300px" padding-top="30px" padding-bottom="30px"/>
+        <mj-image css-class="light-logo" src="https://i.ibb.co/NmL7QcR/Flower-Pot-Light.png" alt="Logo" width="240px" padding-top="30px" padding-bottom="30px"/>
       </mj-column>
     </mj-section>
 
